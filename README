@@ -1,0 +1,4 @@
+docker run gustavotorregrosa/go_desafio_1
+
+OBS: A images ficou com 7MB por causa do alpine...ta valendo? rs
+abraco e obrigado pela correcao ;)
