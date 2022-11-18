@@ -6,4 +6,5 @@ services:
             context: ./
             dockerfile: Dockerfile
         container_name: golang
+        image: gustavotorregrosa/go_desafio_1
 
