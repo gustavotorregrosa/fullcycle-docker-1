@@ -5,7 +5,7 @@ RUN go build -o /server
 
 
 # FROM gcr.io/distroless/base-debian10
-FROM alpine
+FROM scratch
 WORKDIR /
 COPY --from=build /server /server
 ENTRYPOINT [ "/server" ]
